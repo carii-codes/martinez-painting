@@ -83,6 +83,13 @@
     border: 1px solid gray;
     padding: 8px;
     background-color: #86a7a6;
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+
+  .mySlides {
+    display: none;
   }
 
   #outro {
