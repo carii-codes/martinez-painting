@@ -20,8 +20,8 @@
 
   nav a {
     display: block;
-      font-size: 1rem;
-      padding: 1rem;
+    font-size: 1rem;
+    padding: 1rem;
   }
 
   nav ul {
@@ -31,6 +31,10 @@
 
   nav li {
     padding-left: 1rem;
+  }
+
+  #logo {
+    position: relative; left: -920px; top: 15px;
   }
 
   #intro {
