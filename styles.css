@@ -2,6 +2,8 @@
     padding: 0;
     margin: 0;
     border: 1px solid red; 
+    overflow-x: hidden;
+  
   }
   
   #navbar {
@@ -66,9 +68,9 @@
     text-align: justify;
     letter-spacing: 2px;
     font-size: 20px;
-    padding: 30px 90px 75px 90px;
+    /* padding: 30px 90px 75px 90px;
     margin-left: 70px;
-    margin-right: 70px;
+    margin-right: 70px; */
     border: 3px solid #1f1e1d;
     background-color: #f7f6f7;
     border-radius: 10px;
@@ -137,6 +139,16 @@
     background-color: rgba(0,0,0,0.8);
   }
   
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
 
   #outro {
     display: flex;
@@ -152,4 +164,12 @@
 
   #socials {
     background-color: #1f1e1d;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+  }
+
+  #footer-item {
+    
   }
