@@ -91,8 +91,14 @@
     position: relative;
     margin: auto;
   }
+
   .mySlides {
     display: none;
+  }
+
+  img {
+    height: 100%;
+    width: 100%;
   }
 
   #imgNum {
@@ -122,7 +128,7 @@
     position: absolute; left: -1px;
   }
   .next {
-    right: 0;
+    position: absolute; right: -25px;
     border-radius: 3px 0 0 3px;
   }
   
