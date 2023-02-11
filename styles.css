@@ -138,6 +138,10 @@
   .prev:hover, .next:hover {
     background-color: rgba(0,0,0,0.8);
   }
+
+  #dot-div {
+    background-color: #86a7a6;
+  }
   
   .dot {
     cursor: pointer;
