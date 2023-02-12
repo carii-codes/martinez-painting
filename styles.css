@@ -95,12 +95,15 @@
   }
 
   .mySlides {
-    display: none;
+    display: none; 
+    height: 500px;
+    width: 800px;
+    
   }
 
   #slide {
-    height: 400px;
-    width: 600px;
+    height: 500px;
+    width: 800px;
     object-fit: fill;
   }
 
@@ -139,6 +142,10 @@
   /* On hover, add a black background color with a little bit see-through */
   .prev:hover, .next:hover {
     background-color: rgba(0,0,0,0.8);
+  }
+
+  #text {
+    
   }
 
   #dot-div {
