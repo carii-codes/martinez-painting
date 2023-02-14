@@ -82,6 +82,7 @@
     position: relative; top: -75px;
     font-size: 45px;
     text-shadow: 3px 3px black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
 
   #about, #pitch {
@@ -197,6 +198,9 @@
     border: 1px solid gray;
     padding: 8px;
     background-color: #4d8164;
+    background-image: url(images/geo-pattern.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   #socials {
