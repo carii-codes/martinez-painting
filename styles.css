@@ -25,7 +25,7 @@
 
   nav a {
     display: block;
-    color: red;
+    color: white;
     text-shadow: 1px 1px black;
     font-size: 1rem;
     padding: 1rem;
@@ -35,7 +35,7 @@
 
   a:link, a:visited {
     background-color: #1f1e1d;
-    color: red;
+    color: white;
     padding: 14px 25px;
     text-align: center;
     text-decoration: none;
@@ -43,7 +43,7 @@
   }
 
   a:hover, a:active {
-    background-color: #f2f2f2;
+    background-color: #06031d;
   }
 
   nav ul {
