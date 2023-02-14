@@ -8,7 +8,7 @@ function plusSlides(n) {
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }
-
+  // image slideshow
 function showSlides(n) {
   let i;
   let slides = document.getElementsByClassName("mySlides");
@@ -23,4 +23,17 @@ function showSlides(n) {
   }
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
+}
+
+  // shrink navbar on scroll 
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+    document.getElementById("navbar").style.padding = "16px 10px";
+    document.getElementById("logo").style.fontSize = "25px";
+  } else {
+    document.getElementById("navbar").style.padding = "35px 10px";
+    document.getElementById("logo").style.fontSize = "30px";
+  }
 }
