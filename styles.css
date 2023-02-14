@@ -207,6 +207,10 @@
     background-size: cover;
   }
 
+  .linkToCall {
+    position: relative; top: 60px;
+  }
+
   #socials {
     background-color: #1f1e1d;
     display: flex;
