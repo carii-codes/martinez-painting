@@ -7,6 +7,7 @@
     overflow-x: hidden;
   
   }
+
   /* ----------- TOP OF ALL PAGES ----------- */ 
   #navbar {
     display: flex;
@@ -253,7 +254,7 @@
     flex-wrap: nowrap;
     align-content: center;
   }
-
+  
   #footer-item {
     
   }
@@ -262,6 +263,17 @@
 
   .services {
     background-color: #86a7a6;
+    }
+
+  #serviceTitle {
+    text-align: center;
+    text-transform: uppercase;
+    color: #f7f6f7;
+    position: relative; top: -75px;
+    font-size: 45px;
+    text-shadow: 3px 3px black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 180px;
   }
 
   .prices {
