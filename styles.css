@@ -104,6 +104,13 @@
     text-shadow: 1px 1px black;
   }
 
+  .imgTitle {
+    position: relative; top: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 1px 1px black;
+    color: white;
+  }
+
   #photos {
     box-sizing: border-box;
     display: flex;
@@ -208,7 +215,7 @@
 
   .linkToCall {
     position: relative; top: 60px;
-    background-color: #f0efef;
+    background-color: white;
     border: 1px solid #1f1e1d;
     font-size: 20px;
     padding: 15px 32px;
@@ -218,7 +225,15 @@
   }
 
   .linkToCall:hover {
-    background-color: #13439c;
+    background-color: #17181f;
+    color: white;
+    border: 1px solid white;
+  }
+
+  .linkToCall:active {
+    background-color: #17181f;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
   }
 
   #socials {
