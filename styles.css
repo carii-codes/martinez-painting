@@ -135,7 +135,7 @@
   .mySlides {
     display: none; 
     height: 500px;
-    width: 800px;
+    width: 1000px;
     
   }
 
@@ -153,6 +153,7 @@
     position: absolute;
     top: 0;
     text-shadow: 1px 1px black;
+    background-color: rgb(31, 30, 29, .5);
   }
 
   .prev, .next {
@@ -259,12 +260,13 @@
     position: relative; left: 450px;
     margin: 0 20px;
     font-size: larger;
+    text-shadow: 1px 1px black;
   }
 
   /* ------------- SERVICE INFO PAGE -------------- */ 
 
   .services {
-    background-color: #86a7a6;
+    background-image: url(images/white-bg.jpg);
     }
 
   #serviceTitle {
@@ -300,7 +302,9 @@
   }
 
   .prices {
-    background-color: #578d6e;
+    background-image: url(images/stainWood-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   #priceTitle {
