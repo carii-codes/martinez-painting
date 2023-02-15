@@ -255,8 +255,10 @@
     align-content: center;
   }
   
-  #footer-link {
-    
+  .footerLink {
+    position: relative; left: 450px;
+    margin: 0 20px;
+    font-size: larger;
   }
 
   /* ------------- SERVICE INFO PAGE -------------- */ 
