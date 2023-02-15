@@ -7,7 +7,7 @@
     overflow-x: hidden;
   
   }
-  
+  /* ----------- TOP OF ALL PAGES ----------- */ 
   #navbar {
     display: flex;
     flex-direction: row;
@@ -60,6 +60,8 @@
   #logo {
     position: relative; left: -600px; top: -150px;
   }
+
+  /* --------------- HOMEPAGE AND INDEX.HTML PAGE ----------------- */ 
 
   #intro {
     display: flex;
@@ -255,6 +257,9 @@
   #footer-item {
     
   }
+
+  /* ------------- SERVICE INFO PAGE -------------- */ 
+
   .services {
     background-color: #86a7a6;
   }
@@ -266,3 +271,18 @@
   .reviews {
     background-color: #86a7a6;
   }
+
+  /* -------------- LOCATION INFO PAGE ------------ */ 
+
+  .locations {
+    background-color: #578d6e;
+  }
+
+  .map {
+    background-color: #86a7a6;
+  }
+
+  .contactInfo {
+    background-color: #578d6e;
+  }
+
