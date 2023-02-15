@@ -213,7 +213,7 @@
     height: 90vh;
     border: 1px solid gray;
     padding: 8px;
-    background-image: url(images/geo-pattern.jpg);
+    background-image: url(images/paintOptions-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -336,14 +336,57 @@
   /* -------------- LOCATION INFO PAGE ------------ */ 
 
   .locations {
-    background-color: #578d6e;
+    background-image: url(images/skylineCity-bg.jpg); 
+  }
+
+  .localTitle {
+    text-align: center;
+    text-transform: uppercase;
+    color: #f7f6f7;
+    position: relative; top: -75px;
+    font-size: 45px;
+    text-shadow: 3px 3px black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 180px;
+  }
+
+  #localPitch {
+    box-sizing: border-box;
+    width: 70%;
+    text-indent: 10px;
+    text-align: justify;
+    letter-spacing: 2px;
+    font-size: 21px;
+    padding: 30px 90px 75px 90px;
+    margin-left: 70px;
+    margin-right: 70px; 
+    border: 3px solid #1f1e1d;
+    background-color: #f7f6f7;
+    border-radius: 10px;
+    opacity: 0.7;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    text-shadow: 1px 1px black;
+    position: relative; left: 130px;
+    margin-bottom: 300px;
   }
 
   .map {
-    background-color: #86a7a6;
+    background-image: url(images/whiteCube-bg.jpg);
   }
 
   .contactInfo {
     background-color: #578d6e;
+  }
+
+  .contactTitle {
+    text-align: center;
+    text-transform: uppercase;
+    color: #f7f6f7;
+    position: relative; top: -75px;
+    font-size: 45px;
+    text-shadow: 3px 3px black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 120px;
   }
 
