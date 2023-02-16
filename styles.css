@@ -82,10 +82,11 @@
     text-align: center;
     text-transform: uppercase;
     color: #f7f6f7;
-    position: relative; top: -75px;
+    position: relative; top: -65px;
     font-size: 45px;
     text-shadow: 3px 3px black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
   }
 
   #about, #pitch {
@@ -130,6 +131,7 @@
     max-width: 1000px;
     position: relative;
     margin: auto;
+    
   }
 
   .mySlides {
