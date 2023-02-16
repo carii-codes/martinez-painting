@@ -335,6 +335,17 @@
     margin-top: 130px;
   }
 
+  .review-containter {
+  }
+
+  .review {
+    background-color: white;
+    border: 1px solid black;
+    height: 300px;
+    width: 200px;
+    border-radius: 10px;
+  }
+
   /* -------------- LOCATION INFO PAGE ------------ */ 
 
   .locations {
