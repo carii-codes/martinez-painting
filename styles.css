@@ -339,15 +339,15 @@
   }
 
   .review {
-    background-color: white;
+    background-color: rgb(255, 255, 255, 0.3);
     border: 1px solid black;
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 250px;
     border-radius: 10px;
-    margin-bottom: 100px;
-    margin-top: 100px;
+    margin-bottom: 150px;
+    margin-top: 80px;
     float: left;
-    margin-left: 60px;
+    margin-left: 85px;
   }
 
   #review2 {
@@ -360,6 +360,24 @@
 
   #review4 {
     position: relative; 
+  }
+
+  #todd, #jerry, #henry, #noah {
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-shadow: 1px 1px black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+  }
+
+
+  .checked {
+    color: gold;
+  }
+
+  .stars {
+    margin-left: 20px;
+    margin-top: 50px;
   }
 
   /* -------------- LOCATION INFO PAGE ------------ */ 
