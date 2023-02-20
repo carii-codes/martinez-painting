@@ -423,9 +423,14 @@
   }
 
   .contactInfo {
-    background-image: url(images/whiteCube-bg.jpg);
+    /* background-image: url(images/whiteCube-bg.jpg); 
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
+    background-color: #ffffff;
+    opacity: 0.8;
+    background-image:  linear-gradient(30deg, #000000 12%, transparent 12.5%, transparent 87%, #000000 87.5%, #000000), linear-gradient(150deg, #000000 12%, transparent 12.5%, transparent 87%, #000000 87.5%, #000000), linear-gradient(30deg, #000000 12%, transparent 12.5%, transparent 87%, #000000 87.5%, #000000), linear-gradient(150deg, #000000 12%, transparent 12.5%, transparent 87%, #000000 87.5%, #000000), linear-gradient(60deg, #00000077 25%, transparent 25.5%, transparent 75%, #00000077 75%, #00000077), linear-gradient(60deg, #00000077 25%, transparent 25.5%, transparent 75%, #00000077 75%, #00000077);
+    background-size: 72px 126px;
+    background-position: 0 0, 0 0, 36px 63px, 36px 63px, 0 0, 36px 63px;
   }
 
   .contactTitle {
