@@ -286,7 +286,7 @@
     background-color: rgb(255, 255, 255, 0.3);
     border: 1px solid black;
     height: 150px;
-    width: 200px;
+    width: 250px;
     border-radius: 10px;
     margin-bottom: 300px;
     margin-top: 80px;
@@ -301,22 +301,35 @@
     
   }
 
-  #pressureImg {
-    position: relative; left: 1201px; top: -232px;
+  #interiorImg {
+    position: relative; left: -250px;
   }
 
-  #
+  #pressureImg {
+    position: relative; left: 470px; top: -529px;
+  }
+
+  #exterior {
+    position: relative; left: -250px;
+  }
 
   #exteriorImg {
-    position: relative; left: -400px;
+    position: relative; left: -500px;
   }
 
+  #cabinets {
+    position: relative; left: -250px; top: -350px;
+  }
+
+  #kitchenImg {
+    position: relative; left: 720px; top: -530px;
+  }
   .listImg {
 
   }
 
   #pressureWash {
-    position: relative; top: 40px;
+    position: relative; top: -885px; left: 720px;
   }
 
 
