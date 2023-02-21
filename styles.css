@@ -305,7 +305,10 @@
     position: relative; left: 1201px; top: -232px;
   }
 
-  
+  .listImg {
+
+  }
+
 
   #costInfo {
     box-sizing: border-box;
@@ -347,6 +350,8 @@
 
   .reviews {
     background-color: #86a7a6;
+    background-image: url(images/magicpattern-confetti-1676948017533.png);
+    
   }
 
   #reviewTitle {
