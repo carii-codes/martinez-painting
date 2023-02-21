@@ -282,6 +282,18 @@
     margin-top: 180px;
   }
 
+  .wwd {
+    background-color: rgb(255, 255, 255, 0.3);
+    border: 1px solid black;
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+    margin-bottom: 150px;
+    margin-top: 80px;
+    float: left;
+    margin-left: 85px;
+  }
+
   #costInfo {
     box-sizing: border-box;
     width: 60%;
