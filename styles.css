@@ -285,19 +285,27 @@
   .wwd {
     background-color: rgb(255, 255, 255, 0.3);
     border: 1px solid black;
-    height: 250px;
-    width: 250px;
+    height: 150px;
+    width: 200px;
     border-radius: 10px;
-    margin-bottom: 150px;
+    margin-bottom: 300px;
     margin-top: 80px;
     float: left;
-    margin-left: 85px;
+    margin-left: 69px;
+    position: relative; top: -50px;
   }
 
-  .listImg {
+  #interiorImg, #exteriorImg, #kitchenImg{
     float: left;
+    position: relative; left: -150px; top: 300px;
     
   }
+
+  #pressureImg {
+    position: relative; left: 1201px; top: -232px;
+  }
+
+  
 
   #costInfo {
     box-sizing: border-box;
