@@ -270,8 +270,7 @@
   /* ------------- SERVICE INFO PAGE -------------- */ 
 
   .services {
-    background-image: url(images/white-bg.jpg);
-    margin-bottom: -665px;
+   background-image: url(images/white-bg.jpg); 
     }
 
   #serviceTitle {
@@ -291,7 +290,7 @@
     height: 150px;
     width: 250px;
     border-radius: 10px;
-    margin-bottom: 300px;
+    margin-bottom: 10px;
     margin-top: 80px;
     float: left;
     margin-left: 69px;
@@ -311,19 +310,19 @@
   }
 
   #subT1 {
-    position: relative; left: 90px;
+    position: relative; left: 90px; top: -10px;
   }
 
   #subT2 {
-    position: relative; top: -40px; left: -160px;
+    position: relative; top: -55px; left: -160px;
   }
 
   #subT3 {
-    position: relative; top: -85px; left: -350px;
+    position: relative; top: -100px; left: -300px;
   }
 
   #subT4 {
-    position: relative; top: -125px; left: -50px;
+    position: relative; top: -145px; left: -10px;
   }
 
   #interiorImg, #exteriorImg, #kitchenImg{
@@ -337,23 +336,23 @@
   }
 
   #pressureImg {
-    position: relative; left: 470px; top: -529px;
+    position: relative; left: 540px; top: -850px;
   }
 
   #exterior {
-    position: relative; left: -250px;
+    position: relative; left: -250px; top: 250px;
   }
 
   #exteriorImg {
-    position: relative; left: -500px;
+    position: relative; left: -500px; top: -15px;
   }
 
   #cabinets {
-    position: relative; left: -250px; top: -350px;
+    position: relative; left: -200px; top: -50px;
   }
 
   #kitchenImg {
-    position: relative; left: 720px; top: -530px;
+    position: relative; left: 760px; top: -850px;
   }
   
   #interior {
@@ -361,7 +360,7 @@
   }
 
   #pressureWash {
-    position: relative; top: -885px; left: 720px;
+    position: relative; top: -585px; left: 790px;
   }
 
 
