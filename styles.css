@@ -336,7 +336,7 @@
   }
 
   #pressureImg {
-    position: relative; left: 540px; top: -850px;
+    position: relative; left: -40px; top: -105px;
   }
 
   #exterior {
@@ -348,11 +348,11 @@
   }
 
   #cabinets {
-    position: relative; left: -200px; top: -50px;
+    position: relative; left: 650px; top: -50px;
   }
 
   #kitchenImg {
-    position: relative; left: 760px; top: -850px;
+    position: relative; left: 400px; top: -315px;
   }
   
   #interior {
@@ -360,7 +360,7 @@
   }
 
   #pressureWash {
-    position: relative; top: -585px; left: 790px;
+    position: relative; top: -50px; left: 490px;
   }
 
 
