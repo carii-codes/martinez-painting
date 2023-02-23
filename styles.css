@@ -386,9 +386,10 @@
   }
 
   .prices {
-    background-image: url(images/stainWood-bg.jpg);
+   /* background-image: url(images/stainWood-bg.jpg); 
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */ 
+    background-color: #ffffff;
   }
 
   #priceTitle {
@@ -404,7 +405,7 @@
 
   .reviews {
     background-color: #86a7a6;
-    background-image: url(images/bg-reviews.jpg);
+    background-image: url(images/Blue-Background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     
