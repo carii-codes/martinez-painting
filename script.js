@@ -37,3 +37,24 @@ function scrollFunction() {
     document.getElementById("logo").style.fontSize = "30px";
   }
 }
+
+// form validation 
+function validateForm() {
+  var x = document.forms["myForm"]["fname"].value;
+  if (x == "") {
+    alert("Name must be filled out");
+    return false;
+  }
+}
+
+// form submission popup 
+var nextStep = document.querySelector('#submit');
+
+  nextStep.addEventListener('click', function (e) {
+    e.preventDefault();
+    // Hide first view
+    document.getElementById('my_form').style.display = 'none';
+
+    // Show thank you message element
+    document.getElementById('thankYou').style.display = 'block';
+  });
