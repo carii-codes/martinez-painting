@@ -128,6 +128,9 @@
     height: 90vh;
     border: 1px solid gray;
     background-color: #86a7a6;
+    background-image: url(images/blacksand.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
   .slideShow {
