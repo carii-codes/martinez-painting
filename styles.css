@@ -128,7 +128,7 @@
     height: 90vh;
     border: 1px solid gray;
     background-color: #86a7a6;
-    background-image: url(images/blacksand.jpg);
+    background-image: url(images/lightblue-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -192,8 +192,9 @@
   }
 
   #dot-div {
-    background-color: #86a7a6;
-    position: relative; top: -65px;
+    background-color: #7bacb0;
+    position: relative; top: -65px; left: 610px;
+    width: 170px;
   }
   
   .dot {
