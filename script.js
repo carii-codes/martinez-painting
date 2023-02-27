@@ -25,7 +25,7 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
-  // shrink navbar on scroll 
+  // shrink navbar on scroll  
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
