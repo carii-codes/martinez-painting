@@ -305,7 +305,8 @@
     position: relative; top: -50px;
     padding: 10px; */
     display: grid;
-    grid-template: 10px / 20px 20px 20px ;
+    grid-template-rows: 60px 60px;
+    grid-template-columns: 40px 40px 40px ;
   
   }
 
@@ -313,7 +314,7 @@
     font-family: 'PT Sans Narrow', sans-serif;
     font-weight: 400;
     font-size: 20px; 
-    position: relative; 
+    display: grid; 
   }
 
   .subtitle {
