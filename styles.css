@@ -321,8 +321,8 @@
     font-size: 35px;
   }
 
-  #subT1 {
-    position: relative; left: 110px; top: -10px;
+ /*  #subT1 {
+    position: relative; left: 110px; top: -10px; 
   }
 
   #subT2 {
@@ -374,7 +374,7 @@
   #pressureWash {
     position: relative; top: -50px; left: 465px;
   }
-
+*/
 
   #costInfo {
     box-sizing: border-box;
