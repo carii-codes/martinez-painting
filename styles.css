@@ -327,61 +327,6 @@
     margin: 0%;
   }
 
- /*  #subT1 {
-    position: relative; left: 110px; top: -10px; 
-  }
-
-  #subT2 {
-    position: relative; top: -55px; left: -120px;
-  }
-
-  #subT3 {
-    position: relative; top: -100px; left: -320px;
-  }
-
-  #subT4 {
-    position: relative; top: -145px; left: -10px;
-  }
-
-  #interiorImg, #exteriorImg, #kitchenImg{
-    float: left;
-    position: relative; left: -200px; top: 300px;
-    
-  }
-
-  #interiorImg {
-    position: relative; left: -240px; top: 30px;
-  }
-
-  #pressureImg {
-    position: relative; left: -40px; top: -105px;
-  }
-
-  #exterior {
-    position: relative; left: -220px; top: 250px;
-  }
-
-  #exteriorImg {
-    position: relative; left: -470px; top: -15px;
-  }
-
-  #cabinets {
-    position: relative; left: 700px; top: -50px;
-  }
-
-  #kitchenImg {
-    position: relative; left: 450px; top: -315px;
-  }
-  
-  #interior {
-    position: relative; top: 300px; left: 10px;
-  }
-
-  #pressureWash {
-    position: relative; top: -50px; left: 465px;
-  }
-*/
-
   #costInfo {
     box-sizing: border-box;
     width: 100%;
