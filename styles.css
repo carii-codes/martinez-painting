@@ -396,6 +396,7 @@
     flex-direction: row;
     flex-wrap: nowrap; 
     align-items: center;
+    justify-content: space-evenly;
   }
 
   .review {
@@ -404,10 +405,9 @@
     height: 200px;
     width: 200px;
     border-radius: 10px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-   /* margin-bottom: 150px;
+    display: inline-block;
+    margin-bottom: 150px;
+    /*
     margin-top: 80px;
     float: left; 
     margin-left: 85px; */
