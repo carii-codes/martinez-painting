@@ -394,7 +394,8 @@
   .review-containter {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: nowrap; 
+    justify-content: flex-start;
   }
 
   .review {
