@@ -304,9 +304,9 @@
     margin-left: 69px;
     position: relative; top: -50px;
     padding: 10px; */
-    display: grid;
-    grid-template-rows: 60px 60px;
-    grid-template-columns: 40px 40px 40px ;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
   
   }
 
@@ -321,7 +321,8 @@
     font-family: 'PT Sans Narrow', sans-serif;
     font-size: 35px;
     display: flex;
-    float: left; 
+    flex-direction: row;
+    flex-wrap: nowrap;
     
     width: 250px;
     margin: 0%;
