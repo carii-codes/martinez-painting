@@ -392,6 +392,9 @@
   }
 
   .review-containter {
+    display: inline;
+    flex-direction: row;
+    flex-wrap: nowrap;
   }
 
   .review {
@@ -402,11 +405,11 @@
     border-radius: 10px;
     margin-bottom: 150px;
     margin-top: 80px;
-    float: left;
+    /* float: left; */
     margin-left: 85px;
   }
 
-  #review2 {
+   /* #review2 {
     position: relative; 
   }
 
@@ -416,7 +419,7 @@
 
   #review4 {
     position: relative; 
-  }
+  } */
 
   #todd, #jerry, #henry, #noah {
     padding-top: 20px;
