@@ -392,7 +392,7 @@
   }
 
   .review-containter {
-    display: inline;
+    display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
   }
@@ -403,10 +403,10 @@
     height: 250px;
     width: 250px;
     border-radius: 10px;
-    margin-bottom: 150px;
+   /* margin-bottom: 150px;
     margin-top: 80px;
-    /* float: left; */
-    margin-left: 85px;
+    float: left; 
+    margin-left: 85px; */
   }
 
    /* #review2 {
