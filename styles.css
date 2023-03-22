@@ -303,11 +303,8 @@
     height: 150px;
     width: 250px;
     border-radius: 10px;
-    display: grid;
-    grid-column-start: 2;
-  grid-column-end: five;
-  grid-row-start: row1-start;
-  grid-row-end: 3;
+    display: flex;
+    align-items: flex-end;
   }
 
   .caption {
