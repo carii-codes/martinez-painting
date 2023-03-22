@@ -303,7 +303,8 @@
     width: 250px;
     border-radius: 10px;
     display: inline-grid;
-    
+    grid-template-columns: 50px 50px;
+  grid-template-rows: 50px 50px;
   }
 
   .caption {
