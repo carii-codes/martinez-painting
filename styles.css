@@ -294,6 +294,7 @@
     display: grid;
     grid-template-columns: 50px 50px 50px 50px;
     grid-template-rows: 100px 100px 100px;
+    margin-bottom: 200px;
   } 
 
   .wwd {
@@ -318,10 +319,8 @@
   .subtitle {
     font-family: 'PT Sans Narrow', sans-serif;
     font-size: 35px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: flex-start;
+    display: inline-grid;
+
     width: 250px;
     margin: 0%;
   }
