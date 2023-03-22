@@ -288,13 +288,13 @@
     text-shadow: 3px 3px #f7f6f7;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-top: 180px;
+    margin-bottom: 25px;
   }
 
   .whatWeDo {
     display: grid;
     grid-template-columns: 50px 50px 50px 50px;
     grid-template-rows: 100px 200px 100px;
-    margin-bottom: 100px;
   } 
 
   .wwd {
