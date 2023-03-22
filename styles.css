@@ -291,9 +291,9 @@
   }
 
   .whatWeDo {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
+    display: grid;
+    grid-template-columns: 50px 50px;
+  grid-template-rows: 50px 50px;
   } 
 
   .wwd {
