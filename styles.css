@@ -293,7 +293,7 @@
 
   .whatWeDo {
     display: grid;
-    grid-template-columns: 50px 250px 150px 300px 100px 300px 200px 50px;
+    grid-template-columns: 50px 250px 50px 250px 100px 300px 200px 50px;
     grid-template-rows: 70px 200px 100px 30px 30px;
     overflow: hidden;
     height: 600px;
@@ -334,14 +334,22 @@
     grid-row-start: 2;
   }
 
-  #subT2 
+  #subT2 {
+    grid-column-start: 4;
+  }
+
   #exterior {
     grid-column-end: 3;
-    grid-row-start: 5;
+    grid-row-start: 4;
   }
-  #exteriorImg
 
-  #subT3 
+  #exteriorImg {
+    grid-column-start: 4;
+  }
+
+  #subT3 {
+    grid-row-start: 1;
+  }
   #cabinets {
     grid-row-start: 5;
   }
