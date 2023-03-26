@@ -329,7 +329,10 @@
     grid-column-end: 3;
     grid-row-start: 5;
   }
-  #interiorImg
+  #interiorImg {
+    grid-column-start: 2;
+    grid-row-start: 2;
+  }
 
   #subT2 
   #exterior {
@@ -350,8 +353,9 @@
     grid-column-end: 8;
   }
   #pressureWash
-  #pressurImg {
-    grid-column-start: 6;
+
+  #pressureImg {
+    grid-column-start: 7;
   }
 
   #costInfo {
