@@ -294,7 +294,7 @@
   .whatWeDo {
     display: grid;
     grid-template-columns: 50px 100px 250px 300px 100px 300px 200px 50px;
-    grid-template-rows: 70px 200px 100px 50px;
+    grid-template-rows: 70px 200px 100px 30px;
     overflow: hidden;
     height: 600px;
   } 
@@ -305,8 +305,6 @@
     height: 150px;
     width: 250px;
     border-radius: 10px;
-    display: inline-grid;
-    
   }
 
   .caption {
@@ -343,14 +341,15 @@
   #exteriorImg
 
   #subT3 
-  #cabinets
+  #cabinets {
+    grid-row-start: 5;
+  }
   #kitchenImg
 
   #subT4 {
     grid-column-end: 8;
   }
   #pressureWash
-
   #pressurImg 
 
   #costInfo {
