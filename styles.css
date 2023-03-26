@@ -377,6 +377,8 @@
     background-image: url(images/Blue-Background.jpg); 
     background-repeat: no-repeat;
     background-size: cover; 
+    position: relative; 
+    height: 600px;
   }
 
   #priceTitle {
@@ -395,7 +397,7 @@
   }
 
   #paintBorder01 {
-    position: relative; top: -540px;
+    position: relative; top: -140px;
   }
 
   .reviews {
