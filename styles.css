@@ -294,7 +294,7 @@
   .whatWeDo {
     display: grid;
     grid-template-columns: 50px 100px 300px 300px 100px 300px 200px 50px;
-    grid-template-rows: 100px 200px 100px 100px;
+    grid-template-rows: 70px 200px 100px 100px;
     overflow: hidden;
     height: 600px;
   } 
@@ -321,11 +321,29 @@
   .subtitle {
     font-family: 'PT Sans Narrow', sans-serif;
     font-size: 35px;
-    display: inline-grid;
-
     width: 250px;
     margin: 0%;
   }
+
+  #subT1 {
+    grid-column-end: 3;
+
+  } 
+  #interior
+  #interiorImg
+
+  #subT2 
+  #exterior 
+  #exteriorImg
+
+  #subT3 
+  #cabinets
+  #kitchenImg
+
+  #subT4 {
+    grid-column-end: 8;
+  }
+  #pressureWash
 
   #pressurImg {
     display: inline;
