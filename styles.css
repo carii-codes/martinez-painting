@@ -293,8 +293,8 @@
 
   .whatWeDo {
     display: grid;
-    grid-template-columns: 50px 100px 250px 300px 100px 300px 200px 50px;
-    grid-template-rows: 70px 200px 100px 30px;
+    grid-template-columns: 50px 250px 150px 300px 100px 300px 200px 50px;
+    grid-template-rows: 70px 200px 100px 30px 30px;
     overflow: hidden;
     height: 600px;
   } 
@@ -310,10 +310,8 @@
   .caption {
     font-family: 'PT Sans Narrow', sans-serif;
     font-weight: 400;
-    font-size: 20px; 
-    display: flex; 
+    font-size: 20px;  
     padding: 10px;
-    align-items: flex-end;
   }
 
   .subtitle {
@@ -335,7 +333,7 @@
 
   #subT2 
   #exterior {
-    grid-column-start: 4;
+    grid-column-end: 3;
     grid-row-start: 5;
   }
   #exteriorImg
@@ -344,13 +342,17 @@
   #cabinets {
     grid-row-start: 5;
   }
-  #kitchenImg
+  #kitchenImg {
+    grid-column-start: 6;
+  }
 
   #subT4 {
     grid-column-end: 8;
   }
   #pressureWash
-  #pressurImg 
+  #pressurImg {
+    grid-column-start: 6;
+  }
 
   #costInfo {
     box-sizing: border-box;
@@ -442,18 +444,6 @@
     margin-left: 85px; */
   }
 
-   /* #review2 {
-    position: relative; 
-  }
-
-  #review3 {
-    position: relative; 
-  }
-
-  #review4 {
-    position: relative; 
-  } */
-
   #todd, #jerry, #henry, #noah {
     padding-top: 20px;
     padding-left: 10px;
@@ -461,7 +451,6 @@
     text-shadow: 1px 1px black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
-
 
   .checked {
     color: gold;
