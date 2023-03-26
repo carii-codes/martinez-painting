@@ -329,7 +329,10 @@
     grid-column-end: 3;
 
   } 
-  #interior
+  #interior {
+    grid-column-end: 3;
+    grid-row-start: 5;
+  }
   #interiorImg
 
   #subT2 
