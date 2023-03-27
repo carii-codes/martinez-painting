@@ -401,7 +401,7 @@
     background-size: cover; 
     display: grid;
     grid-template-columns: 50px 300px 50px 300px 50px 300px 50px 300px 50px;
-    grid-template-rows: 50px 20px 50px 150px 90px 10px 50px;
+    grid-template-rows: 50px 20px 50px 150px 90px 100px 50px;
     height: 600px;
     overflow: hidden;
   }
@@ -424,7 +424,7 @@
 
   #paintBorder01 {
     grid-column: 1/10;
-    grid-row-start: 6;
+    grid-row-start: 8;
   }
 
   .reviews {
@@ -433,18 +433,21 @@
     background-size: cover;
     background-repeat: no-repeat; 
     display: grid;
-    grid-template-columns: 50px 300px 50px 300px 50px 300px 50px 300px 50px;
-    grid-template-rows: 50px 50px 50px 200px 50px;
+    grid-template-columns: 50px 50px 80px 300px 50px 300px 50px 300px 150px;
+    grid-template-rows: 50px 50px 70px 200px 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
   }
 
   #reviewTitle {
-    text-align: center;
     text-transform: uppercase;
     color: black;
     font-size: 40px;
     text-shadow: 3px 3px #ffffff;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     grid-column: 3/8;
+    grid-row-end: 1;
+    width: 1500px;
   }
 
   .review-container {
