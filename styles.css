@@ -400,7 +400,9 @@
     background-image: url(images/Blue-Background.jpg); 
     background-repeat: no-repeat;
     background-size: cover; 
-    position: relative; 
+    display: grid;
+    grid-template-columns: 50px 300px 50px 300px 50px 300px 50px 300px 50px;
+    grid-template-rows: 50px 150px 50px 150px 50px 150px 50px 150px 50px;
     height: 600px;
     overflow: hidden;
   }
