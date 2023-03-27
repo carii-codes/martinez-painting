@@ -323,7 +323,7 @@
 
   #subT1 {
     grid-column-end: 3;
-
+    justify-self: stretch;
   } 
   #interior {
     grid-column-end: 3;
@@ -336,6 +336,7 @@
 
   #subT2 {
     grid-column-start: 4;
+    justify-self: stretch;
   }
 
   #exterior {
@@ -350,6 +351,7 @@
   #subT3 {
     grid-row-start: 1;
     grid-column-start: 6;
+    justify-self: stretch;
   }
   #cabinets {
     grid-row-start: 5;
@@ -362,6 +364,7 @@
   #subT4 {
     grid-column-end: 9;
     grid-row-start: 1;
+    justify-self: stretch;
   }
   #pressureWash {
     grid-row-start: 5;
