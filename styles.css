@@ -432,6 +432,9 @@
     background-image: url(images/brush-strokes.jpg);
     background-size: cover;
     background-repeat: no-repeat; 
+    display: grid;
+    grid-template-columns: 50px 300px 50px 300px 50px 300px 50px 300px 50px;
+    grid-template-rows: 50px 200px 50px 200px 50px;
   }
 
   #reviewTitle {
