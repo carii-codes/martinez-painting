@@ -402,7 +402,7 @@
     background-size: cover; 
     display: grid;
     grid-template-columns: 50px 300px 50px 300px 50px 300px 50px 300px 50px;
-    grid-template-rows: 50px 150px 50px 150px 50px 150px 50px 150px 50px;
+    grid-template-rows: 50px 150px 50px 150px 50px 150px 50px;
     height: 600px;
     overflow: hidden;
   }
@@ -419,11 +419,14 @@
   }
 
   #paintBorder {
-    position: relative; top: -170px;
+    grid-column-end: 10;
+    grid-column-start: 1;
+    grid-row-start: 1;
   }
 
   #paintBorder01 {
-    position: relative; top: -140px;
+    grid-column-end: 10;
+    grid-column-start: 1;
   }
 
   .reviews {
