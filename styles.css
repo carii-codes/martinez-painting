@@ -383,7 +383,7 @@
     text-align: justify;
     letter-spacing: 2px;
     font-size: 25px;
-    padding: 70px 400px 50px 400px;
+    padding: 70px 400px 50px 310px;
     /* border: 3px solid #1f1e1d; */
     background-color: #ffffff;
     /* border-radius: 10px; 
@@ -391,8 +391,8 @@
     font-family: Arial, Helvetica, sans-serif;
     text-shadow: 1px 1px black;
     display: grid;
-    grid-column: 1 / 10;
-
+    grid-column: 1/ 10;
+    grid-row-start: 4;
   }
 
   .prices {
@@ -400,8 +400,8 @@
     background-repeat: no-repeat;
     background-size: cover; 
     display: grid;
-    grid-template-columns: 50px 300px 50px 300px 50px 300px 50px 300px 50px;
-    grid-template-rows: 50px 20px 50px 150px 90px 100px 50px;
+    grid-template-columns: 50px 300px 200px 300px 50px 300px 50px 300px 50px;
+    grid-template-rows: 50px 100px 30px 250px 20px 20px 100px 10px;
     height: 600px;
     overflow: hidden;
   }
@@ -410,21 +410,21 @@
     text-align: center;
     text-transform: uppercase;
     color: white;
-    position: relative; top: -75px;
     font-size: 45px;
     text-shadow: 3px 3px rgb(4, 4, 4);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin-top: 130px;
+    grid-column-start: 4;
+    grid-row-start: 2;
   }
 
   #paintBorder {
     grid-column: 1/10;
-    grid-row-start: 2;
+    grid-row-start: 3;
   }
 
   #paintBorder01 {
     grid-column: 1/10;
-    grid-row-start: 8;
+    grid-row-start: 6;
   }
 
   .reviews {
