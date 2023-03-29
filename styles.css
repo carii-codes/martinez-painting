@@ -115,6 +115,7 @@
 
   .imgTitle {
     grid-column-start: 3/6;
+    grid-row-start: 1;
     font-family: 'Merriweather', serif;
     text-shadow: 3px 3px black;
     color: #ffffff;
@@ -137,7 +138,8 @@
 
   .slideShow {
     max-width: 1000px;
-    position: relative;
+    grid-row-start: 2;
+    grid-column-start: 2;
     margin: auto;
   }
 
