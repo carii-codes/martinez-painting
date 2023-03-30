@@ -155,7 +155,7 @@
     max-width: 800px; */
     object-fit: fill;
     overflow: hidden;
-    grid-row: 2/6;
+    grid-row: 2/5;
     grid-column: 2/6;
   }
 
