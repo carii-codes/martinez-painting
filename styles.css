@@ -173,10 +173,8 @@
 
   .prev, .next {
     cursor: pointer;
-    top: 50%;
     width: auto;
     padding: 16px;
-    margin-top: -22px;
     color: white;
     font-weight: bold;
     font-size: 30px;
@@ -190,7 +188,6 @@
     grid-row-start: 4;
   }
   .next {
-    position: absolute; right: -1px;
     border-radius: 3px 0 0 3px;
   }
   
