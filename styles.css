@@ -138,15 +138,16 @@
   }
 
   .slideShow {
-    max-width: 1000px;
-    grid-row-start: 2;
-    grid-column-start: 2;
-    margin: auto;
+    max-width: 1200px;
+    grid-row: 2/10;
+    grid-column: 3/6;
   }
 
   .mySlides {
     max-height: 500px;
     max-width: 1200px;
+    grid-row: 2/10;
+    grid-column: 3/6;
     overflow-y: hidden;
   }
 
