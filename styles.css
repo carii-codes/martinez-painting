@@ -125,7 +125,7 @@
   #photos {
     box-sizing: border-box;
     display: grid;
-    grid-template-columns: 1fr 1fr 2fr 1fr 1fr 2fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     width: 100%;
     height: 90vh;
@@ -156,7 +156,7 @@
     object-fit: fill;
     overflow: hidden;
     grid-row: 2/5;
-    grid-column: 2/6;
+    grid-column: 2/10;
   }
 
   #imgNum {
