@@ -114,7 +114,7 @@
   }
 
   .imgTitle {
-    grid-column-start: 3/6;
+    grid-column: 3/6;
     grid-row-start: 1;
     font-family: 'Merriweather', serif;
     text-shadow: 3px 3px black;
