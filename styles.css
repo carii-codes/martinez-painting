@@ -151,10 +151,12 @@
   }
 
   #slide {
-    height: 500px;
-    width: 800px;
+   /* max-height: 500px;
+    max-width: 800px; */
     object-fit: fill;
     overflow: hidden;
+    grid-row: 2/6;
+    grid-column: 2/6;
   }
 
   #imgNum {
