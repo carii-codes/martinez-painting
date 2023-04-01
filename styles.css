@@ -198,7 +198,8 @@
 
   #dot-div {
     background-color: #7bacb0;
-    position: relative; top: -65px; left: 610px;
+    grid-column: span 6;
+    grid
     width: 170px;
   }
   
