@@ -3,8 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&display=swap');
 
-* {
-    padding: 0;
+ * {  padding: 0;
     margin: 0;
     /*border: 1px solid red; */
     overflow-x: hidden;
