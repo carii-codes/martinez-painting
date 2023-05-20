@@ -46,18 +46,30 @@
     background-color: #908f94;
   }
 
-  nav ul {
-    grid-column: 5/6;
-  }
-
-  nav li {
+  #listItem{
     padding-left: 1rem;
     font-family: 'Poppins', sans-serif;
     font-size: larger;
   }
 
+    #navItem1 {
+      grid-column: 3/4;
+      grid-row: 1/2;
+    }
+
+    #navItem2 {
+      grid-column: 4/5;
+      grid-row: 1/2;
+    }
+
+    #navItem3 {
+      grid-column: 5/6;
+      grid-row: 1/2;
+    }
+
   #logo {
-  grid-column: 1/2;
+    grid-column: 1/2;
+    grid-row: 1/2;
   }
 
   /* --------------- HOMEPAGE AND INDEX.HTML PAGE ----------------- */ 
@@ -273,6 +285,9 @@
     display: grid;
     grid-template-columns: 0.5fr 1fr 2fr 2fr 2fr 1fr 0.5fr;
     grid-template-rows: 1fr;
+    left: 0;
+    bottom: 0;
+    width: 100%;
   }
   
   .footerLink1 {
@@ -301,8 +316,10 @@
    background-size: cover;
    background-repeat: no-repeat; 
    display: grid;
+   column-gap: 25px;
+   row-gap: 15px;
    grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 0.5fr;
-   grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
+   grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
    }
 
   #serviceTitle {
@@ -355,6 +372,8 @@
   #interiorImg {
     grid-column: 2/4;
     grid-row-start: 3;
+    border: white 6px solid;
+    border-radius: 5%;
   }
 
   #subT2 {
@@ -372,6 +391,8 @@
   #exteriorImg {
     grid-column: 4/6;
     grid-row-start: 3;
+    border: white 6px solid;
+    border-radius: 5%;
   }
 
   #subT3 {
@@ -389,6 +410,8 @@
   #kitchenImg {
     grid-column: 6/8;
     grid-row-start: 3;
+    border: white 6px solid;
+    border-radius: 5%;
   }
 
   #subT4 {
@@ -406,6 +429,8 @@
   #pressureImg {
     grid-column: 8/10;
     grid-row-start: 3;
+    border: white 6px solid;
+    border-radius: 5%;
   }
 
   #costInfo {
