@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
 
  * {  padding: 0;
     margin: 0;
@@ -162,7 +163,7 @@
     background-color: #f7f6f7;
     border-radius: 10px;
     opacity: 0.9;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Rubik', sans-serif;
     font-size: larger;
     text-shadow: 1px 1px black;
   }
@@ -252,7 +253,7 @@
     align-items: center;
     border: 1px solid gray;
     padding: 8px;
-    background-image: url(images/paintOptions-bg.jpg);
+    background-image: url(images/palette-2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -309,6 +310,7 @@
     color: black;
     background-color: white;
   }
+
 /* \/ FOOTER SECTION \/ */
   #socials {
     background-color: #1f1e1d;
@@ -353,7 +355,7 @@
    background-repeat: no-repeat; 
    display: grid;
    grid-template-columns: 0.5fr 1fr 1fr 0.5fr 1fr 1fr 0.5fr 1fr 1fr 0.5fr 1fr 1fr 0.5fr;
-   grid-template-rows: 0.5fr 0.25fr 0.25fr 0.15fr 0.5fr 0.5fr;
+   grid-template-rows: 0.5fr 0.25fr 0.25fr 0.15fr 0.75fr 0.5fr;
    }
 
    @media screen and (max-width:600px) {
@@ -515,7 +517,7 @@
     grid-column: 8/10;
     grid-row: 2/3;
     height: 70%;
-    width: 40%;
+    width: 80%;
     justify-self: center;
   }
 
@@ -703,12 +705,12 @@
   #reviewTitle {
     text-transform: uppercase;
     color: black;
-    font-size: 250%;
+    font-size: 220%;
     text-shadow: 3px 3px #ffffff;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     grid-column: 2/9;
     grid-row: 1/2;
-    width: 55%;
+    width: 85%;
     justify-self: center;
     height: 75%;
     padding-top: 3%;
@@ -802,7 +804,7 @@
   /* -------------- LOCATION INFO PAGE ------------ */ 
 
   .locations {
-    background-image: url(images/dallas-bg3.jpg); 
+    background-image: url(images/dallas.jpg); 
     display: grid;
     grid-template-columns: .25fr 1fr 1fr 1fr 1fr .25fr;
     grid-template-rows: .5fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -864,7 +866,7 @@
   }
 
   .contactInfo {
-    background-image: url(images/color-bg.jpg); 
+    background-image: url(images/porch2.jpg); 
     background-size: cover;
     background-repeat: no-repeat; 
     display: grid;
