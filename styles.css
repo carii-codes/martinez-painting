@@ -67,6 +67,12 @@
     }
   }
 
+  @media screen and (max-width:320px) {
+    #listItem { 
+      font-size: 60%;
+    }
+  }
+
     .navItem1 {
       grid-column: 3/4;
       grid-row: 1/2;
@@ -103,6 +109,12 @@
     }
   }
 
+  @media screen and (max-width:320px) {
+    #logo { 
+      font-size: 110%;
+    }
+  }
+
   /* --------------- HOMEPAGE AND INDEX.HTML PAGE ----------------- */ 
 
   /* \/ INTRO SECTION \/ */
@@ -126,6 +138,14 @@
       grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 0.5fr;
       grid-template-rows: 1fr 1.5fr 1fr 1fr 1fr 0.25fr;
     }  
+  }
+
+  @media screen and (max-width:320px) {
+    #intro {
+      grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 0.5fr;
+      grid-template-rows: .5fr .7fr 1fr 1fr .5fr 0.25fr;
+    
+    }
   }
 
   #name {
@@ -174,6 +194,13 @@
       grid-column: 2/10;
     }
   }
+
+  @media screen and (max-width:320px) {
+    #about {
+      font-size: 75%;
+    }
+  }
+
 /* \/ PHOTOS SECTION \/ */
 
   #photos {
@@ -205,6 +232,12 @@
       grid-column: 3/11;
       justify-self: center;
       width: 90%;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    .imgTitle {
+      font-size: 120%;
     }
   }
 
@@ -266,6 +299,15 @@
     }  
   }
 
+  @media screen and (max-width:320px) {
+    #outro {
+      grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 0.5fr;
+      grid-template-rows: 0.25fr 1fr 1fr 0.15fr .5fr 0.15fr;
+    
+    }
+  }
+
+
   #pitch {
     grid-column: 2/10;
     grid-row: 2/4;
@@ -276,6 +318,12 @@
     #pitch {
       font-size: 90%;
       grid-column: 2/10;
+    }
+  }
+
+  @media screen and (max-width:320px) {
+    #pitch {
+      font-size: 70%;
     }
   }
 
@@ -325,6 +373,12 @@
   @media screen and (max-width:414px) {
     #socials {
       font-size: 90%;
+    }
+  }
+
+  @media screen and (max-width:320px) {
+    #socials {
+      font-size: 60%;
     }
   }
   
@@ -394,6 +448,13 @@
     }
   }
 
+  @media screen and (max-width: 320px) {
+    #serviceTitle {
+      font-size: 150%;
+      padding-top: 30%;
+    }
+  }
+
   .wwd {
     background-color: rgb(255, 255, 255, 0.8);
     border: 1px solid black;
@@ -405,6 +466,12 @@
     font-weight: 400px;
     font-size: 20px;  
     padding: 10px;
+  }
+
+  @media screen and (max-width:320px) {
+    .caption {
+      font-size: 100%;
+    }
   }
 
   .subtitle {
@@ -434,6 +501,12 @@
       grid-column: 2/8;
       grid-row: 2/3;
       width: 90%;
+    }
+  }
+
+  @media screen and (max-width:320px) {
+    #subT1 {
+      font-size: 150%;
     }
   }
 
@@ -484,6 +557,13 @@
       grid-column: 8/13;
       grid-row: 2/3;
       width: 90%;
+    }
+  }
+
+  @media screen and (max-width:320px) {
+    #subT2 {
+      font-size: 140%;
+      width: 95%;
     }
   }
 
@@ -635,6 +715,13 @@
     height: 600px;
   }
 
+  @media screen and (max-width:320px) {
+    .prices {
+      grid-template-rows: .25fr .5fr .25fr 1fr .15fr .15fr .5fr .10fr;
+    
+    }
+  }
+
   #costInfo {
     box-sizing: border-box;
     width: 60%;
@@ -682,6 +769,12 @@
     #priceTitle {
       font-size: 250%;
     
+    }
+  }
+
+  @media screen and (max-width:320px) {
+    #priceTitle {
+      font-size: 200%;
     }
   }
 
@@ -733,6 +826,13 @@
     }
   }
 
+  @media screen and (max-width:320px) {
+    #reviewTitle {
+      font-size: 100%;
+      padding-top: 10%;
+    }
+  }
+
   .review {
     background-color: #ffffff;
     border: 1px solid black;
@@ -740,6 +840,12 @@
     width: 100%;
     border-radius: 10px;
     grid-row-start: 3;
+  }
+
+  @media screen and (max-width:320px) {
+    .review {
+      font-size: 75%;
+    }
   }
 
   #review1 {
@@ -833,6 +939,12 @@
     }
   }
 
+  @media screen and (max-width:320px) {
+    .localTitle {
+      font-size: 140%;
+    }
+  }
+
   #localPitch {
     box-sizing: border-box;
     grid-column: 2/6;
@@ -856,6 +968,12 @@
     #localPitch {
       width: 100%;
       font-size: 110%;
+    }
+  }
+
+  @media screen and (max-width:320px) {
+    #localPitch {
+      font-size: 90%;
     }
   }
 
@@ -885,6 +1003,12 @@
     grid-column: 2/6;
     grid-row: 2/3;
     justify-self: center;
+  }
+
+  @media screen and (max-width:320px) {
+    .contactTitle {
+      font-size: 190%;
+    }
   }
 
     .infoLinks {
@@ -927,6 +1051,12 @@
       }
     }
 
+    @media screen and (max-width:320px) {
+      #email {
+        font-size: 90%;
+      }
+    }
+
     #cell {
       grid-column: 4/6;
       grid-row: 4/5;
@@ -952,3 +1082,8 @@
       }
     }
 
+    @media screen and (max-width:320px) {
+      #cell {
+        font-size: 90%;
+      }
+    }
